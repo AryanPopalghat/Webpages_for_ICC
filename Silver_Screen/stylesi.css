@@ -1,0 +1,574 @@
+body{background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.711)
+  ),url("https://th.bing.com/th/id/OIP.40kC7CMPVCo-VQXNj8YkKAHaCs?w=321&h=127&c=7&r=0&o=5&dpr=1.25&pid=1.7" )
+}
+@keyframes example{
+    0%{ border-style:ridge;border-color: rgb(255, 0, 225);}
+    33%{border-style:ridge; border-color: rgb(0, 242, 255);}
+    66% {border-style:ridge; border-color: rgb(0, 255, 26);}
+  
+  }
+  @keyframes example2{
+    from{ margin-left:0em;}
+    to {margin-left:8em;}
+  } 
+  @keyframes typing{
+    from{width:0;}
+    to {width:30%;}
+  }
+  @keyframes example3{
+    from{ margin-left:0em;}
+    to {margin-left:15em;}
+  } 
+  #image img {
+    -webkit-transition: width 1s, height 1s;
+    transition: width 1s, height 1s;
+}
+#image img:hover {
+    width: 260%;
+    height: 250%;
+}
+#i2 img {
+  -webkit-transition: width 1s, height 1s;
+  transition: width 1s, height 1s;
+}
+#i2 img:hover {
+  width: 265%;
+  height: -10%;
+}
+#i3 img {
+  -webkit-transition: width 1s, height 1s;
+  transition: width 1s, height 1s;
+}
+#i3 img:hover {
+  width: 80%;
+  height: -10%;
+}
+#i4 img {
+  -webkit-transition: width 1s, height 1s;
+  transition: width 1s, height 1s;
+}
+#i4 img:hover {
+  width: 65%;
+  height: -10%;
+}
+#ir img {
+  -webkit-transition: width 1s, height 1s;
+  transition: width 1s, height 1s;
+}
+#ir img:hover {
+  width: 80%;
+  height: 80%;
+}
+#i1 img {
+  -webkit-transition: width 1s, height 1s;
+  transition: width 1s, height 1s;
+}
+#i1 img:hover {
+  width: 180%;
+  height: -80%;
+}
+#image1 img {
+  -webkit-transition: width 1s, height 1s;
+  transition: width 1s, height 1s;
+}
+#image1 img:hover {
+  width: 200%;
+  height: 600%;
+}
+.backimg{
+    background-image:"FB_IMG_1659903039871.jpg";
+    
+    position:relative;
+    margin-top:-1em;
+    width:60em;
+    height:8em;
+    margin-right:-10em;
+    margin-left:-1em; 
+
+}
+.clubname{
+    color:cyan;
+    font-size: xx-large;
+    text-align: center;
+    font-weight:inherit;text-decoration:solid;
+    margin-left:40%;
+    margin-top:-1.5em;
+       position:absolute;
+       border-style:ridge;
+       animation-name:example;
+       animation-duration: 8s;
+       animation-iteration-count: infinite;
+       animation-timing-function: linear;
+      -webkit-text-stroke:1px rgb(255, 255, 255);
+}
+.about{
+    margin-top: 26em;
+     margin-left:2em;
+    background-color: darkcyan;
+    color:white;
+    font-size: larger;
+    font-weight: bold;
+    position:absolute;
+    padding-right: 5em;
+    padding-left:1em;
+    border-radius: 10px;
+    animation-name:example2;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+    }
+    .desc{
+        color:rgb(191, 0, 255);
+        background-color: antiquewhite;
+        border-radius:2em;
+        margin-top: 25em;
+        margin-left:3em;
+        margin-right:5em;
+        padding-right:1em;
+        padding-left:1em;
+        padding-top:0.5em;
+        padding-bottom:0.5em;
+        font-weight: 600;
+        font-style: italic;
+        font-size: x-large;
+      }
+      .Event{
+        margin-left:2em;
+ color:brown;
+ background-color:honeydew;
+ font-size: x-large;
+   position:absolute;
+    padding-right: 5em;
+    padding-left:1em;
+ animation-name:example3;
+ animation-duration:5s;
+ animation-iteration-count:infinite;
+ animation-direction:alternate;
+ animation-timing-function: linear;
+ margin-top:1em
+      } 
+      .E1 {
+        margin-left: 5%;
+        margin-top: 7.5em;
+        padding:1.5em;
+        margin-right:25%;
+    }
+    .tE1{
+      font-family: Courier, monospace;
+	display: inline-block;
+    }
+    .textE1{
+        overflow:hidden;
+  border-right: .15em solid blueviolet;
+     margin-left:60%;
+     margin-right:-14em;
+     background-color:burlywood;
+     color:blueviolet;
+     padding:1em;
+     font-style: inherit;
+     font-size: x-large;
+     font-weight: bolder;
+     
+     margin-top:-5%;
+     animation-name:typing;
+  animation: typing 3s forwards;
+  animation-iteration-count: infinite;
+  width:0;
+  white-space: nowrap;
+  animation-direction:alternate;
+  animation-delay:1s;
+    }
+    .E2 {
+        margin-left: 55%;
+        margin-top: -30%;
+        padding:1.5em;
+        margin-right:25%;
+    }
+    .textE2{
+        overflow:hidden;
+  border-right: .15em solid blueviolet;
+     margin-left:8%;
+     margin-right:-14em;
+     background-color:burlywood;
+     color:blueviolet;
+     padding:1em;
+     font-style: inherit;
+     font-size: x-large;
+     font-weight: bolder;
+     
+     margin-top:0;
+     animation-name:typing;
+  animation: typing 3s forwards;
+  animation-iteration-count: infinite;
+  width:0;
+  white-space: nowrap;
+  animation-direction:alternate;
+  animation-delay:1s;
+    }
+    .E3 {
+      margin-left: 5%;
+      margin-top: 2%;
+      padding:1.5em;
+      margin-right:25%;
+  }
+  .textE3{
+      overflow:hidden;
+border-right: .15em solid blueviolet;
+   margin-left:60%;
+   margin-right:-14em;
+   background-color:burlywood;
+   color:blueviolet;
+   padding:1em;
+   font-style: inherit;
+   font-size: x-large;
+   font-weight: bolder;
+   
+   margin-top:-5%;
+   animation-name:typing;
+animation: typing 3s forwards;
+animation-iteration-count: infinite;
+width:0;
+white-space: nowrap;
+animation-direction:alternate;
+animation-delay:1s;
+  }
+  .E4 {
+    margin-left: 55%;
+    margin-top: -30%;
+    padding:1.5em;
+    margin-right:25%;
+}
+.textE4{
+    overflow:hidden;
+border-right: .15em solid blueviolet;
+ margin-left:8%;
+ margin-right:-11%;
+ background-color:burlywood;
+ color:blueviolet;
+ padding:1em;
+ font-style: inherit;
+ font-size: x-large;
+ font-weight: bolder;
+ 
+ margin-top:1%;
+ animation-name:typing;
+animation: typing 3s forwards;
+animation-iteration-count: infinite;
+width:0;
+white-space: nowrap;
+animation-direction:alternate;
+animation-delay:1s;
+}
+.E5 {
+  margin-left: 5%;
+  margin-top: 2%;
+  padding:1.5em;
+  margin-right:25%;
+}
+.textE5{
+  overflow:hidden;
+border-right: .15em solid blueviolet;
+   margin-left:60%;
+   margin-right:-14em;
+   background-color:burlywood;
+   color:blueviolet;
+   padding:1em;
+   font-style: inherit;
+   font-size: x-large;
+   font-weight: bolder;
+   
+   margin-top:-5%;
+   animation-name:typing;
+animation: typing 3s forwards;
+animation-iteration-count: infinite;
+width:0;
+white-space: nowrap;
+animation-direction:alternate;
+animation-delay:1s;
+}
+.E6 {
+  margin-left: 55%;
+    margin-top: -30%;
+    padding:1.5em;
+    margin-right:25%;
+}
+.textE6{
+  overflow:hidden;
+border-right: .15em solid blueviolet;
+ margin-left:8%;
+ margin-right:-11%;
+ background-color:burlywood;
+ color:blueviolet;
+ padding:1em;
+ font-style: inherit;
+ font-size: x-large;
+ font-weight: bolder;
+ 
+ margin-top:1%;
+ animation-name:typing;
+animation: typing 3s forwards;
+animation-iteration-count: infinite;
+width:0;
+white-space: nowrap;
+animation-direction:alternate;
+animation-delay:1s;
+}
+.E7 {
+  margin-left: 5%;
+  margin-top: 2%;
+  padding:1.5em;
+  margin-right:25%;
+}
+.textE7{
+  overflow:hidden;
+  border-right: .15em solid blueviolet;
+     margin-left:60%;
+     margin-right:-14em;
+     background-color:burlywood;
+     color:blueviolet;
+     padding:1em;
+     font-style: inherit;
+     font-size: x-large;
+     font-weight: bolder;
+     
+     margin-top:-5%;
+     animation-name:typing;
+  animation: typing 3s forwards;
+  animation-iteration-count: infinite;
+  width:0;
+  white-space: nowrap;
+  animation-direction:alternate;
+  animation-delay:1s;
+}
+.E8 {
+  margin-left: 55%;
+  margin-top: -30%;
+  padding:1.5em;
+  margin-right:25%;
+}
+.textE8{
+  overflow:hidden;
+border-right: .15em solid blueviolet;
+ margin-left:8%;
+ margin-right:-11%;
+ background-color:burlywood;
+ color:blueviolet;
+ padding:1em;
+ font-style: inherit;
+ font-size: x-large;
+ font-weight: bolder;
+ 
+ margin-top:1%;
+ animation-name:typing;
+animation: typing 3s forwards;
+animation-iteration-count: infinite;
+width:0;
+white-space: nowrap;
+animation-direction:alternate;
+animation-delay:1s;
+}
+.E9 {
+  margin-left: 5%;
+  margin-top: 2%;
+  padding:1.5em;
+  margin-right:25%;
+}
+.textE9{
+  overflow:hidden;
+  border-right: .15em solid blueviolet;
+  margin-left:40em;
+  margin-right:-14em;
+  background-color:burlywood;
+  color:blueviolet;
+  padding:1em;
+  font-style: inherit;
+  font-size: x-large;
+  font-weight: bolder;
+  
+  margin-top:-4%;
+  animation-name:typing;
+  animation: typing 3s forwards;
+  animation-iteration-count: infinite;
+  width:0;
+  white-space: nowrap;
+  animation-direction:alternate;
+  animation-delay:1s;
+}
+.E10 {
+  margin-left: 55%;
+    margin-top: -30%;
+    padding:1.5em;
+    margin-right:25%;
+}
+.textE10{
+  overflow:hidden;
+border-right: .15em solid blueviolet;
+margin-left:3em;
+margin-right:-14em;
+background-color:burlywood;
+color:blueviolet;
+padding:1em;
+font-style: inherit;
+font-size: x-large;
+font-weight: bolder;
+
+margin-top:-30%;
+animation-name:typing;
+animation: typing 3s forwards;
+animation-iteration-count: infinite;
+width:0;
+white-space: nowrap;
+animation-direction:alternate;
+animation-delay:1s;
+}
+
+.E11 {
+  margin-left: 5%;
+  margin-top: 11.5em;
+  padding:1.5em;
+  margin-right:25%;
+}
+.textE11{
+  overflow:hidden;
+border-right: .15em solid blueviolet;
+margin-left:40em;
+margin-right:-14em;
+background-color:burlywood;
+color:blueviolet;
+padding:1em;
+font-style: inherit;
+font-size: x-large;
+font-weight: bolder;
+
+margin-top:-11em;
+animation-name:typing;
+animation: typing 3s forwards;
+animation-iteration-count: infinite;
+width:0;
+white-space: nowrap;
+animation-direction:alternate;
+animation-delay:1s;
+}
+.E12 {
+  margin-left: 55%;
+  margin-top: 11.5em;
+  padding:1.5em;
+  margin-right:25%;
+}
+.textE12{
+  overflow:hidden;
+border-right: .15em solid blueviolet;
+margin-left:3em;
+margin-right:-14em;
+background-color:burlywood;
+color:blueviolet;
+padding:1em;
+font-style: inherit;
+font-size: x-large;
+font-weight: bolder;
+
+margin-top:-11em;
+animation-name:typing;
+animation: typing 3s forwards;
+animation-iteration-count: infinite;
+width:0;
+white-space: nowrap;
+animation-direction:alternate;
+animation-delay:1s;
+
+}
+.secy{
+  margin-left:40%;
+  margin-top:17%;
+  margin-right: 39.3%;
+}
+.secytext{
+  margin-left:43%;
+  margin-right:43%;
+  padding-left:2%;
+  background-color: aliceblue;
+  font-weight:bold;
+  font-size:x-large;
+}
+.con1{
+  margin-left:10%;
+  margin-top:7%;
+  margin-right: 69.4%;
+}
+.con1text{
+  margin-left:14%;
+  margin-right:73%;
+  padding-left:2%;
+  background-color: aliceblue;
+  font-weight:bold;
+  font-size:x-large;
+}
+.con2{
+  margin-left:40%;
+  margin-top:-30%;
+  margin-right: 39.3%;
+}
+.con2text{
+  margin-left:40%;
+  margin-right:39.5%;
+  padding-left:2%;
+  background-color: aliceblue;
+  font-weight:bold;
+  font-size:x-large;
+}
+.con3{
+  margin-left:69%;
+  margin-top:-31.5%;
+  margin-right:10.5%;
+}
+.con3text{
+  margin-right:14%;
+  margin-left:73%;
+  padding-left:2%;
+  background-color: aliceblue;
+  font-weight:bold;
+  font-size:x-large;
+}
+.scon{
+  margin-left:40%;
+  margin-top:5%;
+  margin-right: 39.3%;
+}
+.scontext{
+  margin-left:40%;
+  margin-right:39.5%;
+  padding-left:2%;
+  background-color: aliceblue;
+  font-weight:bold;
+  font-size:x-large;
+}
+.teamtext{
+  color:brown;
+    font-size:xx-large;
+    text-align: center;
+    font-weight:bolder;text-decoration:solid;
+    margin-left:2.5%;
+    margin-right:0%;
+    margin-top:7%;
+    width:90%;
+       position:absolute;
+       border-style:ridge;
+       animation-name:example;
+       animation-duration: 8s;
+       animation-iteration-count: infinite;
+       animation-timing-function: linear;
+       padding:1em;
+      -webkit-text-stroke:1px black;
+      background-color: bisque;
+      border-radius: 2em;
+      
+}
+#borderimg{
+  border:5px solid transparent;
+  border-radius: 5px;
+ 
+  border-image: url('https://th.bing.com/th/id/OIP._h7SA3vJddKEKwUJ2Z3PhQHaJ3?pid=ImgDet&rs=1') 55
+  round;
+}

@@ -1,0 +1,698 @@
+body{background-image: linear-gradient(
+    to bottom,
+   
+
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.711)
+  ),url("https://th.bing.com/th/id/OIP.2leHJw5FnYRE3t0TU_agsgHaFj?w=224&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7" );
+ 
+}
+@keyframes example{
+    0%{ border-style:ridge;border-color: rgb(255, 0, 187);}
+    33%{border-style:ridge; border-color: rgb(43, 196, 207);}
+    66% {border-style:ridge; border-color: rgb(43, 207, 68);}
+  
+  }
+  @keyframes example2{
+    from{ margin-left:0em;}
+    to {margin-left:8em;}
+  } 
+  @keyframes typing{
+    from{width:0;}
+    to {width:30%;}
+  }
+  @keyframes example3{
+    from{ margin-left:0em;}
+    to {margin-left:15em;}
+  } 
+  #image img {
+    -webkit-transition: width 1s, height 1s;
+    transition: width 1s, height 1s;
+}
+#image img:hover {
+    width: 230%;
+    height: 150%;
+}
+#ir img {
+  -webkit-transition: width 1s, height 1s;
+  transition: width 1s, height 1s;
+}
+#ir img:hover {
+  width: 80%;
+  height: -5%;
+}
+#ir1 img {
+  -webkit-transition: width 1s, height 1s;
+  transition: width 1s, height 1s;
+}
+#ir1 img:hover {
+  width: 720px;
+  height: 420px;
+}
+#i2 img {
+  -webkit-transition: width 1s, height 1s;
+  transition: width 1s, height 1s;
+}
+#i2 img:hover {
+  width: 250%;
+  height: -5%;
+}
+#i1 img {
+  -webkit-transition: width 1s, height 1s;
+  transition: width 1s, height 1s;
+}
+#i1 img:hover {
+  width: 180%;
+  height: 480%;
+}
+.custom_nav2{
+  position:absolute;
+}
+.backimg{
+    background-image:"Insync Family.jpeg";
+    
+    position:relative;
+    margin-top:-1em;
+    width:60em;
+    height:8em;
+    margin-right:-10em;
+    margin-left:-1em; 
+
+}
+.clubname{
+    color:aquamarine;
+    font-size: xx-large;
+    text-align: center;
+    font-weight:inherit;text-decoration:solid;
+    margin-left:26%;
+    margin-top:5%;
+       position:absolute;
+       border-style:ridge;
+       animation-name:example;
+       animation-duration: 8s;
+       animation-iteration-count: infinite;
+       animation-timing-function: linear;
+      -webkit-text-stroke:1px rgb(0, 0, 0);
+      text-decoration: solid;
+      text-shadow: 1em burlywood;
+}
+.about{
+    margin-top: 26em;
+     margin-left:2em;
+    background-color: darkcyan;
+    color:white;
+    font-size: larger;
+    font-weight: bold;
+    position:absolute;
+    padding-right: 5em;
+    padding-left:1em;
+    border-radius: 10px;
+    animation-name:example2;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+    }
+    .desc{
+        color:rgb(191, 0, 255);
+        background-color: antiquewhite;
+        border-radius:2em;
+        margin-top: 25em;
+        margin-left:3em;
+        margin-right:5em;
+        padding-right:1em;
+        padding-left:1em;
+        padding-top:0.5em;
+        padding-bottom:0.5em;
+        font-weight: 600;
+        font-style: italic;
+        font-size: x-large;
+      }
+      .Event{
+        margin-left:2em;
+ color:brown;
+ background-color:honeydew;
+ font-size: x-large;
+   position:absolute;
+    padding-right: 5em;
+    padding-left:1em;
+ animation-name:example3;
+ animation-duration:5s;
+ animation-iteration-count:infinite;
+ animation-direction:alternate;
+ animation-timing-function: linear;
+ margin-top:1em
+      } 
+      .E1 {
+        margin-left: 1.5em;
+        margin-top: 7.5em;
+        padding:1.5em;
+        margin-right:35%;
+    }
+    .textE2{
+        overflow:hidden;
+  border-right: .15em solid blueviolet;
+     margin-left:40em;
+     margin-right:-14em;
+     background-color:burlywood;
+     color:blueviolet;
+     padding:1em;
+     font-style: inherit;
+     font-size: x-large;
+     font-weight: bolder;
+     
+     margin-top:-11em;
+     animation-name:typing;
+  animation: typing 3s forwards;
+  animation-iteration-count: infinite;
+  width:0;
+  white-space: nowrap;
+  animation-direction:alternate;
+  animation-delay:1s;
+    }
+    .E2 {
+        margin-left: 50%;
+        margin-top: -31%;
+        padding:1.5em;
+        margin-right:25%;
+        position:relative;
+    }
+    .textE1{
+        overflow:hidden;
+  border-right: .15em solid blueviolet;
+     margin-left:33%;
+     margin-right:40%em;
+     background-color:burlywood;
+     color:blueviolet;
+     padding:1em;
+     font-style: inherit;
+     font-size: x-large;
+     font-weight: bolder;
+     
+     margin-top:0%;
+     animation-name:typing;
+  animation: typing 3s forwards;
+  animation-iteration-count: infinite;
+  width:0;
+  white-space: nowrap;
+  animation-direction:alternate;
+  animation-delay:1s;
+    }
+    .E3 {
+      margin-left: 1.5em;
+      margin-top: 2%;
+      padding:1.5em;
+      margin-right:20%;
+  }
+  .textE3{
+      overflow:hidden;
+border-right: .15em solid blueviolet;
+   margin-left:40em;
+   margin-right:-14em;
+   background-color:burlywood;
+   color:blueviolet;
+   padding:1em;
+   font-style: inherit;
+   font-size: x-large;
+   font-weight: bolder;
+   
+   margin-top:-15em;
+   animation-name:typing;
+animation: typing 3s forwards;
+animation-iteration-count: infinite;
+width:0;
+white-space: nowrap;
+animation-direction:alternate;
+animation-delay:1s;
+  }
+  .E4 {
+    margin-left:50%;
+    margin-top: 17.5em;
+    padding:1.5em;
+    margin-right:25%;
+}
+.textE4{
+    overflow:hidden;
+border-right: .15em solid blueviolet;
+ margin-left:35%;
+ margin-right:40%;
+ background-color:burlywood;
+ color:blueviolet;
+ padding:1em;
+ font-style: inherit;
+ font-size: x-large;
+ font-weight: bolder;
+ 
+ margin-top:1%;
+ animation-name:typing;
+animation: typing 3s forwards;
+animation-iteration-count: infinite;
+width:0;
+white-space: nowrap;
+animation-direction:alternate;
+animation-delay:1s;
+}
+.E5 {
+  margin-left: 1.5em;
+  margin-top: -31%;
+  padding:1.5em;
+  margin-right:25%;
+}
+.textE5{
+  overflow:hidden;
+border-right: .15em solid blueviolet;
+margin-left:40em;
+margin-right:-14em;
+background-color:burlywood;
+color:blueviolet;
+padding:1em;
+font-style: inherit;
+font-size: x-large;
+font-weight: bolder;
+
+margin-top:-11em;
+animation-name:typing;
+animation: typing 3s forwards;
+animation-iteration-count: infinite;
+width:0;
+white-space: nowrap;
+animation-direction:alternate;
+animation-delay:1s;
+}
+.E6 {
+  margin-left: 50%;
+  margin-top:0%;
+  padding:1.5em;
+  margin-right:25%;
+}
+.textE6{
+  overflow:hidden;
+border-right: .15em solid blueviolet;
+margin-left:3em;
+margin-right:-14em;
+background-color:burlywood;
+color:blueviolet;
+padding:1em;
+font-style: inherit;
+font-size: x-large;
+font-weight: bolder;
+
+margin-top:-25%;
+animation-name:typing;
+animation: typing 3s forwards;
+animation-iteration-count: infinite;
+width:0;
+white-space: nowrap;
+animation-direction:alternate;
+animation-delay:1s;
+}
+.E7 {
+  margin-left: 1.5em;
+  margin-top: -31%;
+  padding:1.5em;
+  margin-right:25%;
+}
+.textE7{
+  overflow:hidden;
+border-right: .15em solid blueviolet;
+margin-left:40em;
+margin-right:-14em;
+background-color:burlywood;
+color:blueviolet;
+padding:1em;
+font-style: inherit;
+font-size: x-large;
+font-weight: bolder;
+
+margin-top:-11em;
+animation-name:typing;
+animation: typing 3s forwards;
+animation-iteration-count: infinite;
+width:0;
+white-space: nowrap;
+animation-direction:alternate;
+animation-delay:1s;
+}
+.E8 {
+  margin-left: 50%;
+  margin-top: -2%;
+  padding:1.5em;
+  margin-right:25%;
+}
+.textE8{
+  overflow:hidden;
+border-right: .15em solid blueviolet;
+margin-left:3em;
+margin-right:-14em;
+background-color:burlywood;
+color:blueviolet;
+padding:1em;
+font-style: inherit;
+font-size: x-large;
+font-weight: bolder;
+
+margin-top:-11em;
+animation-name:typing;
+animation: typing 3s forwards;
+animation-iteration-count: infinite;
+width:0;
+white-space: nowrap;
+animation-direction:alternate;
+animation-delay:1s;
+}
+.E9 {
+  margin-left: 1.5em;
+  margin-top: 20%;
+  padding:1.5em;
+  margin-right:25%;
+}
+.E10 {
+  margin-left:50%;
+  margin-top: -31%;
+  padding:1.5em;
+  margin-right:25%;
+}
+.textE9{
+  overflow:hidden;
+border-right: .15em solid blueviolet;
+margin-left:35%;
+margin-right:40%;
+background-color:burlywood;
+color:blueviolet;
+padding:1em;
+font-style: inherit;
+font-size: x-large;
+font-weight: bolder;
+
+margin-top:1%;
+animation-name:typing;
+animation: typing 3s forwards;
+animation-iteration-count: infinite;
+width:0;
+white-space: nowrap;
+animation-direction:alternate;
+animation-delay:1s;
+}
+
+.secy{
+  margin-left:40%;
+  margin-top:30%;
+  margin-right: 36%;
+}
+.secytext{
+  margin-left:40%;
+  margin-right:37%;
+  padding-left:1%;
+  background-color: aliceblue;
+  font-weight:bold;
+  font-size:x-large;
+  text-align: center;
+  width: 305px;
+}
+.con1{
+  margin-left:1%;
+  margin-top:7%;
+  margin-bottom:1%;
+  margin-right: 73.4%;
+}
+.con1text{
+  margin-left:1.2%;
+  margin-right:71%;
+  padding-left:1%;
+  background-color: aliceblue;
+  font-weight:bold;
+  font-size:x-large;
+  text-align: center;
+  width: 305px;
+}
+.con2{
+  margin-left:27%;
+  margin-top:-32.5%;
+  margin-right:45.3%;
+  margin-bottom:1%;
+}
+.con2text{
+  margin-left:26.5%;
+  margin-right:44%;
+  padding-left:1%;
+  background-color: aliceblue;
+  font-weight:bold;
+  font-size:x-large;
+  text-align: center;
+  width: 305px;
+}
+.con3{
+  margin-left:52%;
+  margin-top:-32.5%;
+  margin-right:10.5%;
+  margin-bottom:1%;
+}
+.con3text{
+  margin-right:11%;
+  margin-left:52%;
+  padding-left:1%;
+  background-color: aliceblue;
+  font-weight:bold;
+  font-size:x-large;
+  text-align: center;
+  width: 305px;
+}
+.scon{
+  margin-left:77%;
+  margin-top:-32.5%;
+ margin-right: 1%;
+}
+.scontext{
+  margin-left:77%;
+  margin-right: 1%;
+  padding-left:1%;
+  background-color: aliceblue;
+  font-weight:bold;
+  font-size:x-large;
+  text-align: center;
+  width: 305px;
+  margin-top:1%;
+}
+.group{
+  margin-left:27%;
+  margin-top:5%;
+}
+.teamtext{
+  color:brown;
+    font-size:xx-large;
+    text-align: center;
+    font-weight:bolder;text-decoration:solid;
+    margin-left:2.5%;
+    margin-right:0%;
+    margin-top:20%;
+    width:90%;
+  
+       position:absolute;
+       border-style:ridge;
+       animation-name:example;
+       animation-duration: 8s;
+       animation-iteration-count: infinite;
+       animation-timing-function: linear;
+       padding:1em;
+      -webkit-text-stroke:1px black;
+      background-color: bisque;
+      border-radius: 2em;
+      
+}
+#borderimg img {
+  border: 7.5px solid aliceblue;
+  order: 5px solid rgb(2, 22, 39);
+  border-radius: 20px;
+  -webkit-transition: width 1s, height 1s;
+  transition: width 1s, height 1s;
+  
+}
+
+#borderimg img:hover {
+  box-shadow: 0 0 4px 4px rgb(174, 235, 243);
+  width:320px;
+  height:370px;
+
+}
+.con11{
+  margin-left:10%;
+  margin-top:7%;
+  margin-bottom:1%;
+}
+.con11text{
+  margin-left:10%;
+  margin-right:67%;
+  padding-left:1%;
+  background-color: aliceblue;
+  font-weight:bold;
+  font-size:x-large;
+  text-align: center;
+  width: 305px;
+}
+.con21{
+  margin-left:40%;
+  margin-top:-32.5%;
+  margin-right: 36%;
+}
+.con21text{
+  margin-left:40%;
+  margin-right:37%;
+  padding-left:1%;
+  background-color: aliceblue;
+  font-weight:bold;
+  font-size:x-large;
+  text-align: center;
+  width: 305px;
+}
+.con31{
+  margin-left:69%;
+  margin-top:-31.5%;
+  margin-right:7%;
+}
+.con31text{
+  margin-right:8%;
+  margin-left:69%;
+  padding-left:1%;
+  background-color: aliceblue;
+  font-weight:bold;
+  font-size:x-large;
+  text-align: center;
+  width: 305px;
+}
+.header_section .nav_container {
+  margin: 0 auto;
+}
+
+.custom_nav-container .contact_nav {
+  width: 95%;
+  margin-right: auto;
+}
+
+.custom_nav-container .contact_nav .nav-item {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.custom_nav-container .contact_nav .nav-item .nav-link {
+  padding: 0px 25px;
+  color: #000000;
+  text-align: center;
+}
+
+.custom_nav-container .contact_nav .nav-item .nav-link img {
+  width: 22px;
+  margin-right: 15px;
+}
+
+.custom_nav2 {
+  padding: 0 45px;
+  margin-top:-9%;
+  margin-left:3%;
+ width:90%;
+}
+
+.custom_nav2 .custom_nav-container {
+  padding: 5px 0;
+  background-color: #1ab9f8;
+  -webkit-clip-path: polygon(0 0, 100% 0%, 95% 100%, 5% 100%);
+          clip-path: polygon(0 0, 100% 0%, 95% 100%, 5% 100%);
+}
+
+.custom_nav2 .navbar-expand-lg .navbar-nav .nav-item .nav-link {
+  padding: 10px 30px;
+  color: #070101;
+  text-align: center;
+  position: relative;
+}
+
+.custom_nav2 .navbar-expand-lg .navbar-nav .nav-item.active .nav-link, .custom_nav2 .navbar-expand-lg .navbar-nav .nav-item:hover .nav-link {
+  color: #ffffff;
+ 
+}
+
+.custom_nav2 #navbarSupportedContent {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: initial;
+}
+
+.btn,
+.btn:focus {
+  outline: none !important;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.custom_nav-container .nav_search-btn {
+  background-image: url(../images/search-icon-black.png);
+  background-size: 18px;
+  background-repeat: no-repeat;
+  width: 35px;
+  height: 35px;
+  padding: 0;
+  border: none;
+  margin: 0 40px 0 15px;
+  background-position: center;
+}
+
+.custom_nav-container .nav_search-btn:hover {
+  background-image: url(../images/search-icon.png);
+}
+
+.navbar-brand {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+li{
+  display:inline-block;
+  text-align: center;
+}
+.navbar-brand img {
+  width: 35px;
+  margin-right: 5px;
+}
+
+.navbar-brand span {
+  font-size: 20px;
+  font-weight: bold;
+  color: #0c0900;
+  text-transform: uppercase;
+}
+
+.custom_nav-container {
+  z-index: 99999;
+  padding: 15px 0;
+}
+
+.custom_nav-container .navbar-toggler {
+  outline: none;
+}
+
+.custom_nav-container .navbar-toggler .navbar-toggler-icon {
+  background-image: url(../images/menu.png);
+  background-size: 42px;
+}
+
+.custom_nav-container .nav_search-btn {
+  margin: auto;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
